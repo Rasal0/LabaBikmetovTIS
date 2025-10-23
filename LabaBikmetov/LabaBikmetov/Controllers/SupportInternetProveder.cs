@@ -42,7 +42,7 @@ namespace LabaBikmetov.Controllers
                 
         }
 
-        [HttpPost("CreateUser")]
+        [HttpPost("GetAllUsers")]
         public IActionResult CreateUser(string login, string pass)
         {
             
