@@ -1,0 +1,6 @@
+services:
+  lababikmetov:
+    image: ${DOCKER_REGISTRY-}lababikmetov
+    build:
+      context: .
+      dockerfile: LabaBikmetov/Dockerfile
